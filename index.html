@@ -205,7 +205,7 @@
     
 </div>
 <div class="text-center">
-    <a class="btn btn-primary py-3 px-5 mt-2" href="">Viewl All Domestic Packages</a>
+    <a class="btn btn-primary py-3 px-5 mt-2" href="domesticpackage.html">Viewl All Domestic Packages</a>
 
 </div>
 <!-- Package End -->
@@ -704,21 +704,17 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const datetime = document.getElementById('datetime').value;
   const message = document.getElementById('message').value;
 
-  // Create the WhatsApp message text with bold labels and new lines
-  const whatsappMessage = `*Name:* ${name}\n*Email:* ${email}\n*Date & Time:* ${datetime}\n*Message:* ${message}`;
-
-  // Encode the message to be URL-friendly
-  const encodedMessage = encodeURIComponent(whatsappMessage);
-
-  // Indian phone number with country code, formatted correctly
-  const phoneNumber = "919140012929"; // Replace with the actual Indian phone number
-
-  // WhatsApp API URL with the encoded message text
-  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  // Construct the WhatsApp message URL with formatted text and line breaks
+  const whatsappURL = "https://wa.me/919140012929?text=" // Replace with your actual WhatsApp number with country code
+    + encodeURIComponent("*Name:* ") + encodeURIComponent(name) + "%0A" // Bold label and value
+    + encodeURIComponent("*Email:* ") + encodeURIComponent(email) + "%0A" // Bold label and value
+    + encodeURIComponent("*Date & Time:* ") + encodeURIComponent(datetime) + "%0A" // Bold label and value
+    + encodeURIComponent("*Message:* ") + encodeURIComponent(message); // Bold label and value
 
   // Open WhatsApp with the pre-filled message
   window.open(whatsappURL, '_blank');
 });
+
 
 
 
