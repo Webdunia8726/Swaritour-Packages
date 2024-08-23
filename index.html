@@ -694,25 +694,35 @@
     <script src="js/main.js"></script>
     <script src="scriptnavbar.js"></script>
 
-    <script>document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault(); // Prevent the default form submission
-      
-        // Get the values from the form
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const datetime = document.getElementById('datetime').value;
-        const message = document.getElementById('message').value;
-      
-        // Create the WhatsApp message text
-        const whatsappMessage = `Hello, I'm ${name}Email: ${email}Date & Time: ${datetime}Message: ${message}`;
-      
-        // WhatsApp API URL with your message text
-        const whatsappURL = `https://wa.me/9140012929?text=${encodeURIComponent(whatsappMessage)}`;
-      
-        // Open WhatsApp with the pre-filled message
-        window.open(whatsappURL, '_blank');
-      });
-      </script>
+   <script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault(); // Prevent the default form submission
+
+  // Get the values from the form
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const datetime = document.getElementById('datetime').value;
+  const message = document.getElementById('message').value;
+
+  // Create the WhatsApp message text with bold labels and new lines
+  const whatsappMessage = `*Name:* ${name}\n*Email:* ${email}\n*Date & Time:* ${datetime}\n*Message:* ${message}`;
+
+  // Encode the message to be URL-friendly
+  const encodedMessage = encodeURIComponent(whatsappMessage);
+
+  // Indian phone number with country code, formatted correctly
+  const phoneNumber = "919140012929"; // Replace with the actual Indian phone number
+
+  // WhatsApp API URL with the encoded message text
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+  // Open WhatsApp with the pre-filled message
+  window.open(whatsappURL, '_blank');
+});
+
+
+
+   </script>
 </body>
 
 </html>
