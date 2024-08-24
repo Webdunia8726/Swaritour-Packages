@@ -256,7 +256,6 @@
 .package-item {
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     width: 100%;
-    height: 650px;
 }
 
 .package-item img {
@@ -442,4 +441,14 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+.card-body {
+    height: 250px;
+    margin-bottom: 50px;
+}
+.package-item{
+    height: 640px;
+    
 }

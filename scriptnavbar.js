@@ -15,23 +15,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Tours & Packages</a>
-                    <a href="package.html" class="nav-item nav-link">Gallery</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+<div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tour & Packages</a>
                         <div class="dropdown-menu m-0">
-                            <a href="destination.html" class="dropdown-item">Destination</a>
-                            <a href="booking.html" class="dropdown-item">Booking</a>
-                            <a href="team.html" class="dropdown-item">Travel Guides</a>
-                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                            <a href="404.html" class="dropdown-item">404 Page</a>
+                            <a href="domesticpackage.html" class="dropdown-item">Domestic Packages</a>
+                            <a href="internationalpackage.html" class="dropdown-item">International Packages</a>
+                           
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Blog</a>
-                    <a href="package.html" class="nav-item nav-link">Enquiry</a>
+                    
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
 
                 </div>
-                <a href="" class="btn btn-primary rounded-pill py-2 px-4">Contact Us</a>
+                <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4">Contact Us</a>
             </div>
         </nav>
 
