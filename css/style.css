@@ -172,7 +172,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/bg-hero.jpg);
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(../img/domesticpackage.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +260,8 @@
 
 .package-item img {
     transition: .5s;
+    width: 100%;
+    height: 250px;
 }
 
 .package-item:hover img {
@@ -457,5 +459,46 @@
 .aboutimg{
     width: 100%;
     height: 430px;
-    border-radius: 20px;
+    border-radius: 20pxF;
+}
+
+
+
+
+/* watsapp button */
+.contact-buttons {
+    position: fixed; /* or absolute if you prefer */
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 9999; /* Ensures the buttons appear on top of other content */
+}
+
+.contact-button {
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button.phone {
+    background-color: #4CAF50; /* Green for call button */
+}
+
+.contact-button.whatsapp {
+    background-color: #25D366; /* WhatsApp color */
+}
+
+.contact-button:hover {
+    background-color: #f1f1f1;
+    color: #333;
 }

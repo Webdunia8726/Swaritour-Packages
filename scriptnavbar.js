@@ -147,13 +147,15 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("DOMContentLoaded", function () {
     var CallContainer = document.querySelector(".Call-button");
     if (CallContainer) {
-      CallContainer.innerHTML = `<a href="https://wa.me/yourphonenumber" class="whatsapp-button" target="_blank">
-      <i class="fab fa-whatsapp"></i>
+      CallContainer.innerHTML = `<div class="contact-buttons">
+    <a href="tel:+1234567890" class="contact-button phone">
+        <i class="fas fa-phone-alt"></i>
     </a>
-  
-    <a href="tel:+1234567890" class="call-button">
-      <i class="fas fa-phone-alt"></i>
-    </a>`;
+    <a href="https://wa.me/1234567890" class="contact-button whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+`;
     }
   });
   
