@@ -161,3 +161,10 @@ a.portfolio-link {
 }
 .exclusions li{
 }
+
+.imgpackage{
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  text-align: center;
+}

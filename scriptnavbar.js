@@ -148,10 +148,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var CallContainer = document.querySelector(".Call-button");
     if (CallContainer) {
       CallContainer.innerHTML = `<div class="contact-buttons">
-    <a href="tel:+1234567890" class="contact-button phone">
+    <a href="tel:9372778974" class="contact-button phone">
         <i class="fas fa-phone-alt"></i>
     </a>
-    <a href="https://wa.me/1234567890" class="contact-button whatsapp">
+    <a href="https://wa.me/9372778974" class="contact-button whatsapp">
         <i class="fab fa-whatsapp"></i>
     </a>
 </div>
