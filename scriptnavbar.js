@@ -24,9 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                     </div>
                     
-                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                    <a href="#" class="nav-item nav-link">Gallery</a>
                     
-                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="#" class="nav-item nav-link">Blog</a>
 
                 </div>
                 <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4">Contact Us</a>
