@@ -61,8 +61,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-9372778974</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>bhushandeo@swaritravels.in</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/swaritravels/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/swaritravels"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
@@ -123,17 +123,19 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-      
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91-9372778974</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>bhushandeo@swaritravels.in</small>
+      <a href="tel:+919372778974">                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91-9372778974</small>
+</a>
+                    <a href="">                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>bhushandeo@swaritravels.in</small>
+
+                    </a>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/swaritravels"><i class="fab fa-facebook-f fw-normal"></i></a>
+                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/swaritravels/"><i class="fab fa-instagram fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
                 </div>
             </div>
