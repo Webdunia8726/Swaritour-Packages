@@ -13,20 +13,21 @@ document.addEventListener("DOMContentLoaded", function () {
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
 <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tour & Packages</a>
                         <div class="dropdown-menu m-0">
                             <a href="domesticpackage.html" class="dropdown-item">Domestic Packages</a>
                             <a href="internationalpackage.html" class="dropdown-item">International Packages</a>
-                           
+                                                       <a href="Pilgrimage Packages.html" class="dropdown-item">Pilgrimage Packages</a>
+
                         </div>
                     </div>
                     
-                    <a href="#" class="nav-item nav-link">Gallery</a>
+                    <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                     
-                    <a href="#" class="nav-item nav-link">Blog</a>
+                    <a href="https://g.co/kgs/m3vrBzd" class="nav-item nav-link">Reviews</a>
 
                 </div>
                 <a href="contact.html" class="btn btn-primary rounded-pill py-2 px-4">Contact Us</a>
@@ -56,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>A701 I Annapurna Ashish Chs I, Khambalpada Rd, opp. Manjunatha College, Dombivli East, Maharashtra 421201</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>A701 I Annapurna Ashish, Khambalpada Rd, opp. Manjunatha College, Dombivli East, Maharashtra 421201</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-9372778974</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>bhushandeo@swaritravels.in</p>
                     <div class="d-flex pt-2">
@@ -91,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <p>Subscribe for exclusive tour packages, discounts, and travel tips!</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -118,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var TopContainer = document.querySelector(".Top-containerr");
     if (TopContainer) {
       TopContainer.innerHTML = `
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="container-fluid  px-5 d-none d-lg-block" style="background-color: #e8604c;">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
