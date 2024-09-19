@@ -24,6 +24,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         </div>
                     </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="https://swaritravels.in/air-tickets/" class="dropdown-item">Air Tickets</a>
+                            <a href="https://swaritravels.in/travel-insurance/" class="dropdown-item">Travel Insurance</a>
+                                                       <a href="https://swaritravels.in/hotel-booking/" class="dropdown-item">Hotel Booking</a>
+                                                       <a href="https://swaritravels.in/passport-visa-assistance/" class="dropdown-item">Passport & Visa Assistant</a>
+                                                                                                              <a href="https://swaritravels.in/car-rentals/" class="dropdown-item">Car Rentals</a>
+
+
+                        </div>
+                    </div>
                     
                     <a href="gallery.html" class="nav-item nav-link">Gallery</a>
                     
