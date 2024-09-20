@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link ">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="about.html" class="nav-item nav-link">About Us</a>
 <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tours & Packages</a>
                         <div class="dropdown-menu m-0">
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <a href="https://swaritravels.in/air-tickets/" class="dropdown-item">Air Tickets</a>
                             <a href="https://swaritravels.in/travel-insurance/" class="dropdown-item">Travel Insurance</a>
                                                        <a href="https://swaritravels.in/hotel-booking/" class="dropdown-item">Hotel Booking</a>
-                                                       <a href="https://swaritravels.in/passport-visa-assistance/" class="dropdown-item">Passport & Visa Assistant</a>
+                                                       <a href="https://swaritravels.in/passport-visa-assistance/" class="dropdown-item">Passport & Visa Assistance</a>
                                                                                                               <a href="https://swaritravels.in/car-rentals/" class="dropdown-item">Car Rentals</a>
 
 
