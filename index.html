@@ -625,50 +625,47 @@ Full day Ubud Tour -Tegenungan Waterfall followed by local lunch@ Taman dedari b
                     <div class="col-md-6">
                         <h1 class="text-white mb-4">Need Assistance in planning your Tour.
                         </h1>
-                        <form id="contactForm">
+                        <form id="contactForm" method="POST" action="send-email.php">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name">
+                                        <input type="text" name="name" class="form-control bg-transparent" id="name" placeholder="Your Name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name">
-                                        <label for="name">Destination</label>
+                                        <input type="text" name="destination" class="form-control bg-transparent" id="destination" placeholder="Destination" required>
+                                        <label for="destination">Destination</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <div class="form-floating date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">Travel Date</label>
+                                    <div class="form-floating date">
+                                        <input type="date" name="travel_date" class="form-control bg-transparent" id="travel_date" placeholder="Travel Date" required>
+                                        <label for="travel_date">Travel Date</label>
                                     </div>
                                 </div>
-                              
                                 <div class="col-md-6">
-                                    <div class="form-floating date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">No of adults</label>
+                                    <div class="form-floating date">
+                                        <input type="number" name="adults" class="form-control bg-transparent" id="adults" placeholder="Number of Adults" required>
+                                        <label for="adults">No. of Adults</label>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
-                                    <div class="form-floating date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">No of Kids (Age must)</label>
+                                    <div class="form-floating date">
+                                        <input type="number" name="kids" class="form-control bg-transparent" id="kids" placeholder="No of Kids (Age must)" required>
+                                        <label for="kids">No. of Kids (Age must)</label>
                                     </div>
                                 </div>
-                                
                                 <div class="col-md-6">
-                                    <div class="form-floating date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">Contact No</label>
+                                    <div class="form-floating date">
+                                        <input type="tel" name="contact" class="form-control bg-transparent" id="contact" placeholder="Contact Number" required>
+                                        <label for="contact">Contact No</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                        <textarea class="form-control bg-transparent" placeholder="Special Request" name="special_request" id="message" style="height: 100px"></textarea>
                                         <label for="message">Special Request</label>
                                     </div>
                                 </div>
@@ -677,6 +674,7 @@ Full day Ubud Tour -Tegenungan Waterfall followed by local lunch@ Taman dedari b
                                 </div>
                             </div>
                         </form>
+                        
                     </div>
                 </div>
             </div>
@@ -876,31 +874,7 @@ Full day Ubud Tour -Tegenungan Waterfall followed by local lunch@ Taman dedari b
     <script src="js/main.js"></script>
     <script src="scriptnavbar.js"></script>
 
-   <script>
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault(); // Prevent the default form submission
 
-  // Get the values from the form
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const datetime = document.getElementById('datetime').value;
-  const message = document.getElementById('message').value;
-
-  // Construct the WhatsApp message URL with formatted text and line breaks
-  const whatsappURL = "https://wa.me/919140012929?text=" // Replace with your actual WhatsApp number with country code
-    + encodeURIComponent("*Name:* ") + encodeURIComponent(name) + "%0A" // Bold label and value
-    + encodeURIComponent("*Email:* ") + encodeURIComponent(email) + "%0A" // Bold label and value
-    + encodeURIComponent("*Date & Time:* ") + encodeURIComponent(datetime) + "%0A" // Bold label and value
-    + encodeURIComponent("*Message:* ") + encodeURIComponent(message); // Bold label and value
-
-  // Open WhatsApp with the pre-filled message
-  window.open(whatsappURL, '_blank');
-});
-
-
-
-
-   </script>
 </body>
 
 </html>
