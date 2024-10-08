@@ -5,7 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
-                <h4 class="text-primary m-0"><img src="img/SWARI-LOGO (1).png" alt=""></h4>
+                <h4 class="text-primary m-0"><img src="img/SWARI-LOGO (1).png" alt="">
+                <img src="img/googlelogo.png" alt="">
+                <span class="text-white fs-6">4.9 stars</sapn>
+                </h4>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -72,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <h4 class="text-white mb-3">Contact</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>A701 I Annapurna Ashish, Khambalpada Rd, opp. Manjunatha College, Dombivli East, Maharashtra 421201</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91-9372778974</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>bhushandeo@swaritravels.in</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>bhushandeo@swaritravels.in | swaritravels@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/swaritravels/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/swaritravels"><i class="fab fa-facebook-f"></i></a>
@@ -101,6 +104,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         <div class="col-4">
                             <img class="img-fluid bg-light p-1" src="img/package-1.jpg" alt="">
                         </div>
+                                               <img class="img-fluid bg-light p-1" src="img/visalogo.png" alt="">
+
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -116,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="container">
             <div class="copyright">
                 <div class="row">
-                   
+
                     
                 </div>
             </div>
@@ -138,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
       <a href="tel:+919372778974">                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+91-9372778974</small>
 </a>
-                    <a href="">                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>bhushandeo@swaritravels.in</small>
+                    <a href="">                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>bhushandeo@swaritravels.in | swaritravels@gmail.com</small>
 
                     </a>
                 </div>

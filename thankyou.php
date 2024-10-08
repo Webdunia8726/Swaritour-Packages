@@ -43,7 +43,7 @@
     <div class="thank-you-container">
         <h1>Thank You!</h1>
         <p>Your submission has been received successfully.</p>
-        <a class="btn" href="index.php">Go Back to Home</a>
+        <a class="btn" href="index.html">Go Back to Home</a>
     </div>
 </body>
 </html>
